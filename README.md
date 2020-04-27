@@ -24,8 +24,3 @@ Bootstrap design with my change using HTML and CSS.
 ![Clothes Image](git-image/image4.png)
 
 Bootstrap design with my change using HTML and CSS.
-
-### *Author page*
-![Author Image](git-image/image5.png)
-
-Bootstrap design with my change using HTML and CSS.
