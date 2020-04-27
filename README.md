@@ -1,6 +1,6 @@
-# Mens Style 2k18
+# 25h Kitchen
 
-*Third, responsive, website created using Bootstrap made in my first year of studying.*
+*Seventh, responsive, website created using PHP and JavaScript and jQuery made in my second year of studying.*
 
 
 ## Website Desing
@@ -8,12 +8,12 @@
 ### *Home page*
 ![Home Image](git-image/image1.png)
 
-Bootstrap design with my change using HTML and CSS.
+Landing page with a image gif and language change which reads from different JSON files.
 
-### *Accessories page*
-![Accessories Image](git-image/image2.png)
+### *Login and Register with Food page*
+![Login and Register with Food Image](git-image/image2.png)
 
-Bootstrap design with my change using HTML and CSS.
+Login and register functionalities with dinamic showing of food.
 
 ### *Beard and Hair page*
 ![Beard and Hair Image](git-image/image3.png)
