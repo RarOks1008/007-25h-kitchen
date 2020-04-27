@@ -15,12 +15,12 @@ Landing page with a image gif and language change which reads from different JSO
 
 Login and register functionalities with dinamic showing of food.
 
-### *Beard and Hair page*
-![Beard and Hair Image](git-image/image3.png)
+### *Add recipe with Food page*
+![Add recipe with Food Image](git-image/image3.png)
 
-Bootstrap design with my change using HTML and CSS.
+Add recipe functionality with dinamic showing of food.
 
-### *Clothes page*
-![Clothes Image](git-image/image4.png)
+### *Contact page*
+![Contact Image](git-image/image4.png)
 
-Bootstrap design with my change using HTML and CSS.
+Contact page with working mail sending with PHPMailer.
