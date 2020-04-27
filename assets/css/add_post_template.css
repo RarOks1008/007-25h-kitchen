@@ -1,0 +1,44 @@
+.add_post_form h2 {
+    font-size: 28px;
+}
+.add_post_form .add_post_param {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_post_form .add_post_param {
+    margin-top: 15px;
+}
+.add_post_form .add_post_param label {
+    margin-right: 10px;
+    font-style: italic;
+}
+.add_post_form .add_post_param input, .add_post_form .add_post_param textarea, .add_post_form input[type="submit"] {
+    font-size: 16px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+.add_post_form p {
+    min-height: 20px;
+    color: #ff0000;
+    font-size: 16px;
+}
+.add_post_form input[type="submit"] {
+    width: 120px;
+    cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+    .add_post_form .add_post_param label, .add_post_form .add_post_param div label  {
+        width: 29%;
+        font-size: 14px;
+    }
+    .add_post_form .add_post_param div input {
+        width: initial;
+    }
+    .add_post_form .add_post_param input, .add_post_form .add_post_param div {
+        width: 70%;
+        font-size: 14px;
+    }
+}

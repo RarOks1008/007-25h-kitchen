@@ -1,0 +1,60 @@
+#new_post_area .login_register {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+#new_post_area .login_register .login_param {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#new_post_area .login_register:last-child {
+    padding-left: 5px;
+    border-left: 1px dashed red;
+}
+#new_post_area .login_register:first-child {
+    padding-right: 5px;
+    border-right: 1px dashed red;
+}
+#new_post_area .login_register .login_param input, #new_post_area .login_register button {
+    font-size: 16px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+#new_post_area .login_register p {
+    min-height: 20px;
+    color: #ff0000;
+    font-size: 16px;
+}
+#new_post_area .login_register button {
+    width: 120px;
+    cursor: pointer;
+}
+#new_post_area .login_register button#forgot_password {
+    width: 160px;
+}
+@media screen and (max-width: 760px) {
+    #new_post_area .login_register {
+        width: 98%;
+    }
+    #new_post_area .login_register:first-child {
+        border: none;
+    }
+    #new_post_area .login_register:last-child {
+        margin-top: 20px;
+        border: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    #new_post_area .login_register .login_param label {
+        width: 70%;
+        font-size: 14px;
+    }
+    #new_post_area .login_register .login_param input {
+        width: 29%;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,4 @@
+ErrorDocument 404 http://25h-kitchen.epizy.com/index.php?page=404
+
+ErrorDocument 403 http://25h-kitchen.epizy.com/index.php?page=404
+Options All -Indexes

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: IndieFlower;
+    src: url(../fonts/IndieFlower.ttf);
+}
+@font-face {
+  font-family: Slabo;
+  src: url(../fonts/Slabo27px-Regular.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    visibility: hidden;
+}
+#main_panel {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Slabo;
+}
+textarea.always_hidden {
+    width: 0px;
+    height: 0px;
+}
+.notification {
+    position: sticky;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    bottom: 200px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: Slabo;
+}
+.notification span {
+    padding: 10px;
+    font-weight: bold;
+}
+.notification span:first-child {
+    font-size: 24px;
+}
+.notification span:last-child {
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    #main_panel {
+        flex-direction: column;
+        align-items: center;
+    }
+}
